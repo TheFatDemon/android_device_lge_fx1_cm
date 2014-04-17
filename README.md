@@ -1,5 +1,8 @@
-Work in Progress
-================
+PhilZ Touch recovery
+=========================
+Compatible with Boost Mobile F7 & Us Cellular F7 
 
-Device tree for LG Optimus F7 (Boost Mobile)
 
+
+Known Issues:
+* USB Mass Storage does not mount.

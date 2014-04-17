@@ -41,3 +41,8 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 ENABLE_LOKI_RECOVERY := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/class/android_usb/android0/f_mass_storage/lun/file
 BOARD_UMS_LUNFILE := /sys/class/android_usb/android0/f_mass_storage/lun/file
+
+#Philz edits
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
+BRIGHTNESS_SYS_FILE := "/sys/class/leds/lcd-backlight/brightness"
