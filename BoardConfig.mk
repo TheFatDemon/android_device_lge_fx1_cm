@@ -27,9 +27,11 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 2550136320
 BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_VOLD_MAX_PARTITIONS := 97
 
-TARGET_PREBUILT_KERNEL := device/lge/fx1s/kernel
+#Kernel source
+TARGET_KERNEL_SOURCE := kernel/lge/fx1s
+TARGET_KERNEL_CONFIG := 1chaos_defconfig
+TARGET_PREBUILT_KERNEL := device/lge/fx1s
 
-TARGET_KERNEL_CONFIG := fx1s-perf_defconfig
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3
 
 # Recovery
@@ -37,3 +39,5 @@ TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
 BOARD_HAS_NO_SELECT_BUTTON := true
 ENABLE_LOKI_RECOVERY := true
+TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/class/android_usb/android0/f_mass_storage/lun/file
+BOARD_UMS_LUNFILE := /sys/class/android_usb/android0/f_mass_storage/lun/file
