@@ -13,6 +13,7 @@ TARGET_ARCH_VARIANT := armv7-a-neon
 ARCH_ARM_HAVE_TLS_REGISTER := true
 
 TARGET_BOOTLOADER_BOARD_NAME := FX1
+TARGET_OTA_ASSERT_DEVICE := fx1,fx1s
 
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=fx1s lpj=67667
 BOARD_KERNEL_BASE := 0x80200000
@@ -29,8 +30,8 @@ BOARD_VOLD_MAX_PARTITIONS := 97
 
 #Kernel source
 TARGET_KERNEL_SOURCE := kernel/lge/fx1s
-TARGET_KERNEL_CONFIG := 1chaos_defconfig
-TARGET_PREBUILT_KERNEL := device/lge/fx1s
+TARGET_KERNEL_CONFIG := fx1s-perf_defconfig
+TARGET_PREBUILT_KERNEL := device/lge/fx1s/kernel
 
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3
 

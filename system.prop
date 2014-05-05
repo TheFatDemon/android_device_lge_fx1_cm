@@ -4,33 +4,6 @@
 ro.lge.swversion_short=ZV5
 ro.lge.swversion_rev=02
 ro.lge.swversion=LG870ZV5
-ro.build.id=JZO54K
 ro.build.display.id=ZV5
 ro.build.version.incremental=LG870ZV5.1383913039
-ro.build.version.sdk=16
-ro.build.version.codename=REL
-ro.build.version.release=4.1.2
-ro.build.date=Fri Nov  8 21:19:22 KST 2013
-ro.build.date.utc=1383913162
-ro.build.type=user
-ro.build.user=sunghyun86.woo
-ro.build.host=LGEARND3U8
-ro.build.tags=release-keys
-ro.product.model=LG-LG870
-ro.product.brand=lge
-ro.product.name=fx1s_spr_us
-ro.product.device=fx1
-ro.product.board=FX1
-ro.product.cpu.abi=armeabi-v7a
-ro.product.cpu.abi2=armeabi
-ro.product.manufacturer=LGE
-ro.product.locale.language=en
-ro.product.locale.region=US
-ro.wifi.channels=11
-ro.board.platform=msm8960
-# ro.build.product is obsolete; use ro.product.device
-ro.build.product=fx1
-# Do not try to parse ro.build.description or .fingerprint
-ro.build.description=fx1s_spr_us-user 4.1.2 JZO54K LG870ZV5.1383913039 release-keys
-ro.build.fingerprint=lge/fx1s_spr_us/fx1:4.1.2/JZO54K/LG870ZV5.1383913039:user/release-keys
-ro.build.characteristics=default
+
