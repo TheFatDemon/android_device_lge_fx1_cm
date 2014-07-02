@@ -1,4 +1,4 @@
-PhilZ Touch recovery
+PhilZ Touch and Clockwormod recovery Source
 =========================
 Compatible with Boost Mobile F7 & Us Cellular F7 
 
