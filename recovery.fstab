@@ -14,4 +14,3 @@
 
 # USB
 /devices/platform/msm_hsusb_host/usb        /storage/usbdisk0   auto    defaults        voldmanaged=sda:auto
-

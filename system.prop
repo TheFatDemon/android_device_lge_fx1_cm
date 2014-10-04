@@ -1,9 +1,3 @@
 #
 # system.prop for fx1s
 #
-ro.lge.swversion_short=ZV5
-ro.lge.swversion_rev=02
-ro.lge.swversion=LG870ZV5
-ro.build.display.id=ZV5
-ro.build.version.incremental=LG870ZV5.1383913039
-

@@ -1,8 +1,5 @@
-PhilZ Touch and Clockwormod recovery Source
-=========================
-Compatible with Boost Mobile F7 & Us Cellular F7 
+Work in Progress
+================
 
+Device tree for LG Optimus F7 (Boost Mobile)
 
-
-Known Issues:
-* USB Mass Storage does not mount.
